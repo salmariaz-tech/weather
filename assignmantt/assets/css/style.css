@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+nav{
+    background-color: rgb(160, 22, 22);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+nav h1{
+    color: white;
+    font-size: 4rem;
+    }
+    nav ul li{
+        list-style-type: none;
+    }
+nav ul li a{
+text-decoration-line: none;
+font-size: 2rem;
+padding: 12PX 20PX;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a:hover{
+    background-color: beige;
+    color: blue;
+}
+
+.parant{
+    background-image: url(../media/download.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+}
+.card1{
+padding: 2rem 4rem;
+box-sizing: border-box;
+border-right: solid red 6px;
+}
+
+.card2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.bg-img{
+    height: 65vh;
+    width: 100%;
+    background-image: url(../media/portrait.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+    color: white; 
+}
+
+.main{
+    height: auto;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.para1 p{
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+}
+.card3 mark{
+    background-color: rgb(88, 85, 85);
+}
+.para2 p{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.card4 p{
+    padding:0rem 1rem 1rem ;
+    box-sizing: border-box;
+}
+.card1 p{
+    padding-top: 1rem;
+    box-sizing: border-box;
+}
+.card1 h1{
+    color: red;
+}
+.parent{
+    background-image: url(../media/nav.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.child{
+height: auto;
+flex-basis: 20%;
+align-items: center;
+justify-content: space-evenly;
+padding: 2rem;
+} 
+.main{
+height: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+padding: 0rem 2rem 0rem rem;
+}
+.kid{
+color: white;
+height: auto;
+flex-basis: 20%;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-color:rgb(4, 79, 4);
+border: solid rgb(7, 66, 7);
+border-radius: 50%;
+}
+.root{
+color: rgb(244, 244, 249);
+height: auto;
+flex-basis: 20%;
+align-items: center;
+justify-content: space-evenly;
+}
+.fram{
+padding: 1rem;
+color: rgb(245, 245, 252);
+}
+p{
+margin-left:30px;
+}
+form{
+    background-image: url(../media/download\ \(2\).jpg)
+  
+}
